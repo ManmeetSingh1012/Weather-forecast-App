@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- here multiple item can be there so thats why we are using the id-->
+    <item
+        android:id="@+id/refresh_itm"
+        android:title="Refresh"
+        android:orderInCategory="100"/>
+
+    <item android:title="Exit"
+        android:orderInCategory="100"
+        android:id="@+id/exit"/>
+
+</menu>
